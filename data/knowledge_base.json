@@ -1,0 +1,22 @@
+[
+  {
+    "id": "KB-001",
+    "title": "PowerShell Security Monitoring",
+    "content": "Monitor PowerShell execution logs for encoded commands, suspicious parent-child process relationships, and execution from unusual directories."
+  },
+  {
+    "id": "KB-002",
+    "title": "Brute Force Detection",
+    "content": "Multiple failed authentication attempts from a single source within a short time window may indicate password spraying or brute-force activity."
+  },
+  {
+    "id": "KB-003",
+    "title": "Malware Incident Response",
+    "content": "When malware is detected, isolate the affected host, preserve forensic evidence, identify persistence mechanisms, and perform threat hunting across the environment."
+  },
+  {
+    "id": "KB-004",
+    "title": "DNS Tunneling Detection",
+    "content": "Indicators of DNS tunneling include unusually long domain names, high query volume, high entropy subdomains, and communication with suspicious domains."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "INC-2026-001",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-04",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-002",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "VPN-GATEWAY-01",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-003",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-12",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-004",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-03",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  }
+]
