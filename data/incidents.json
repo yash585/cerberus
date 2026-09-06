@@ -4,23 +4,513 @@
     "title": "Suspicious PowerShell Activity",
     "severity": "High",
     "status": "Open",
-    "affected_asset": "WS-FINANCE-04",
+    "affected_asset": "WS-FINANCE-01",
     "assigned_to": "SOC Tier 2",
     "description": "Encoded PowerShell commands detected executing on a finance workstation.",
     "mitre_technique": "T1059.001"
   },
   {
     "id": "INC-2026-002",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-02",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-003",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-03",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-004",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-04",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-005",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-05",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-006",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-06",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-007",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-07",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-008",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-08",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-009",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-09",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-010",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-10",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-011",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-11",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-012",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-12",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-013",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-13",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-014",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-14",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-015",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-15",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-016",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-16",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-017",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-17",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-018",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-18",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-019",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-19",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-020",
+    "title": "Suspicious PowerShell Activity",
+    "severity": "High",
+    "status": "Open",
+    "affected_asset": "WS-FINANCE-20",
+    "assigned_to": "SOC Tier 2",
+    "description": "Encoded PowerShell commands detected executing on a finance workstation.",
+    "mitre_technique": "T1059.001"
+  },
+  {
+    "id": "INC-2026-021",
     "title": "Multiple Failed VPN Logins",
     "severity": "Medium",
     "status": "Investigating",
-    "affected_asset": "VPN-GATEWAY-01",
+    "affected_asset": "SRV-IT-01",
     "assigned_to": "SOC Tier 1",
     "description": "Multiple failed authentication attempts detected from a foreign IP address.",
     "mitre_technique": "T1110"
   },
   {
-    "id": "INC-2026-003",
+    "id": "INC-2026-022",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-02",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-023",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-03",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-024",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-04",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-025",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-05",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-026",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-06",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-027",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-07",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-028",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-08",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-029",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-09",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-030",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-10",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-031",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-11",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-032",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-12",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-033",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-13",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-034",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-14",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-035",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-15",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-036",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-16",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-037",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-17",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-038",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-18",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-039",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-19",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-040",
+    "title": "Multiple Failed VPN Logins",
+    "severity": "Medium",
+    "status": "Investigating",
+    "affected_asset": "SRV-IT-20",
+    "assigned_to": "SOC Tier 1",
+    "description": "Multiple failed authentication attempts detected from a foreign IP address.",
+    "mitre_technique": "T1110"
+  },
+  {
+    "id": "INC-2026-041",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-01",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-042",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-02",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-043",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-03",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-044",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-04",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-045",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-05",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-046",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-06",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-047",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-07",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-048",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-08",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-049",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-09",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-050",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-10",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-051",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-11",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-052",
     "title": "Potential Malware Download",
     "severity": "Critical",
     "status": "Contained",
@@ -30,7 +520,107 @@
     "mitre_technique": "T1204.002"
   },
   {
-    "id": "INC-2026-004",
+    "id": "INC-2026-053",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-13",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-054",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-14",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-055",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-15",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-056",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-16",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-057",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-17",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-058",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-18",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-059",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-19",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-060",
+    "title": "Potential Malware Download",
+    "severity": "Critical",
+    "status": "Contained",
+    "affected_asset": "ENG-LAPTOP-20",
+    "assigned_to": "Incident Response Team",
+    "description": "Endpoint protection detected and quarantined a malicious executable.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-061",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-01",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-062",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-02",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-063",
     "title": "Unusual DNS Traffic",
     "severity": "Low",
     "status": "Open",
@@ -38,5 +628,375 @@
     "assigned_to": "SOC Tier 1",
     "description": "Large volume of DNS requests to previously unseen domains.",
     "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-064",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-04",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-065",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-05",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-066",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-06",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-067",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-07",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-068",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-08",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-069",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-09",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-070",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-10",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-071",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-11",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-072",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-12",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-073",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-13",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-074",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-14",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-075",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-15",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-076",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-16",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-077",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-17",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-078",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-18",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-079",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-19",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-080",
+    "title": "Unusual DNS Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "DEV-SERVER-20",
+    "assigned_to": "SOC Tier 1",
+    "description": "Large volume of DNS requests to previously unseen domains.",
+    "mitre_technique": "T1071.004"
+  },
+  {
+    "id": "INC-2026-081",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-01",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-082",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-02",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-083",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-03",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-084",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-04",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-085",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-05",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-086",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-06",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-087",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-07",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-088",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-08",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-089",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-09",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-090",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-10",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-091",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-11",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-092",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-12",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-093",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-13",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-094",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-14",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-095",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-15",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-096",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-16",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-097",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-17",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-098",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Open",
+    "affected_asset": "WS-HR-18",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-099",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-19",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
+  },
+  {
+    "id": "INC-2026-100",
+    "title": "Unauthorized Software Installation",
+    "severity": "Low",
+    "status": "Resolved",
+    "affected_asset": "WS-HR-20",
+    "assigned_to": "IT Support",
+    "description": "Unapproved application installed on human resources device.",
+    "mitre_technique": "T1204.002"
   }
 ]
