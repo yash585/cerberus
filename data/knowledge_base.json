@@ -1,0 +1,502 @@
+[
+  {
+    "id": "KB-001",
+    "title": "PowerShell Security Monitoring",
+    "content": "Monitor PowerShell execution logs for encoded commands, suspicious parent-child process relationships, and execution from unusual directories."
+  },
+  {
+    "id": "KB-002",
+    "title": "Brute Force Detection",
+    "content": "Multiple failed authentication attempts from a single source within a short time window may indicate password spraying or brute-force activity."
+  },
+  {
+    "id": "KB-003",
+    "title": "Malware Incident Response",
+    "content": "When malware is detected, isolate the affected host, preserve forensic evidence, identify persistence mechanisms, and perform threat hunting across the environment."
+  },
+  {
+    "id": "KB-004",
+    "title": "DNS Tunneling Detection",
+    "content": "Indicators of DNS tunneling include unusually long domain names, high query volume, high entropy subdomains, and communication with suspicious domains."
+  },
+  {
+    "id": "KB-005",
+    "title": "Phishing Incident Triage",
+    "content": "Analyze email headers, sandbox attachments, detonate suspicious URLs, and purge malicious messages from internal mailboxes."
+  },
+  {
+    "id": "KB-006",
+    "title": "Ransomware Remediation",
+    "content": "Sever network connectivity, preserve memory captures, verify backup integrity, and do not reboot affected servers."
+  },
+  {
+    "id": "KB-007",
+    "title": "VLAN Hopping Defense",
+    "content": "Disable DTP on all switch ports, place unused ports into a blackhole VLAN, and configure explicit access or trunk modes."
+  },
+  {
+    "id": "KB-008",
+    "title": "SQL Injection Defense",
+    "content": "Ensure all web applications utilize parameterized queries or prepared statements, and enforce input validation via Web Application Firewalls."
+  },
+  {
+    "id": "KB-009",
+    "title": "Cross-Site Scripting Mitigation",
+    "content": "Implement strict Content Security Policy headers and ensure all user-supplied data is properly HTML entity encoded."
+  },
+  {
+    "id": "KB-010",
+    "title": "Physical Security Access Control",
+    "content": "Audit badge reader logs for velocity alerts, disable access for terminated employees, and integrate camera feeds with ACS alerts."
+  },
+  {
+    "id": "KB-011",
+    "title": "SSH Key Management",
+    "content": "Prohibit password-based SSH authentication, mandate Ed25519 key pairs, and rotate keys dynamically via a centralized secrets manager."
+  },
+  {
+    "id": "KB-012",
+    "title": "WMI Abuse Detection",
+    "content": "Monitor the Windows-WMI-Activity operational log for suspicious remote process creation via the Win32_Process class."
+  },
+  {
+    "id": "KB-013",
+    "title": "Rogue Access Point Hunting",
+    "content": "Perform routine wireless sweeps utilizing WIDS/WIPS sensors to detect unauthorized SSIDs operating on corporate frequencies."
+  },
+  {
+    "id": "KB-014",
+    "title": "Data Exfiltration Detection",
+    "content": "Baseline normal outbound data transfer volumes per user and alert on sudden large spikes over HTTPS, FTP, or DNS protocols."
+  },
+  {
+    "id": "KB-015",
+    "title": "Printer Security Hardening",
+    "content": "Change all default administrator passwords on network printers, disable unnecessary protocols, and place on isolated VLANs."
+  },
+  {
+    "id": "KB-016",
+    "title": "Scheduled Task Auditing",
+    "content": "Review Windows Event ID 4698 for new scheduled task creation and flag executions originating from user profile directories."
+  },
+  {
+    "id": "KB-017",
+    "title": "SIEM Log Integrity",
+    "content": "Forward all SIEM audit logs to an immutable storage bucket and configure alerting for audit log clearance events."
+  },
+  {
+    "id": "KB-018",
+    "title": "VPN Gateway Hardening",
+    "content": "Enforce certificate-based authentication alongside RADIUS MFA for all remote access VPN connections and disable split-tunneling."
+  },
+  {
+    "id": "KB-019",
+    "title": "Database Auditing Configuration",
+    "content": "Enable Database Unified Auditing to capture statements on sensitive tables and monitor for unexpected bulk data extraction."
+  },
+  {
+    "id": "KB-020",
+    "title": "Jump Server Architecture",
+    "content": "Require RDP access to critical infrastructure to originate exclusively from hardened jump servers with session recording enabled."
+  },
+  {
+    "id": "KB-021",
+    "title": "Macro Security Policy",
+    "content": "Configure Office Group Policy to block macros executing from files originating from the internet."
+  },
+  {
+    "id": "KB-022",
+    "title": "Shadow IT Discovery",
+    "content": "Analyze proxy and firewall egress logs to identify unauthorized cloud storage or SaaS application usage."
+  },
+  {
+    "id": "KB-023",
+    "title": "Email Forwarding Rule Monitoring",
+    "content": "Audit message tracking logs for anomalous Inbox rules forwarding internal communications to external domains."
+  },
+  {
+    "id": "KB-024",
+    "title": "C2 Beacon Analysis",
+    "content": "Perform frequency analysis on proxy logs to identify uniform HTTPS requests indicative of automated Command and Control beaconing."
+  },
+  {
+    "id": "KB-025",
+    "title": "Executive Protection Monitoring",
+    "content": "Enroll C-suite accounts in dedicated dark web monitoring and enforce aggressive lockout policies on AD credentials."
+  },
+  {
+    "id": "KB-026",
+    "title": "Legal Data Classification",
+    "content": "Apply mandatory sensitivity labels to all documents residing on legal department file shares."
+  },
+  {
+    "id": "KB-027",
+    "title": "Proxy SSL Decryption",
+    "content": "Deploy internal root CA certificates via GPO to all managed endpoints to facilitate transparent SSL inspection."
+  },
+  {
+    "id": "KB-028",
+    "title": "Camera Network Isolation",
+    "content": "Ensure IP cameras are segmented on a non-routable VLAN with zero internet egress to prevent botnet hijacking."
+  },
+  {
+    "id": "KB-029",
+    "title": "Vulnerability Scanner Tuning",
+    "content": "Configure authenticated vulnerability scans to run during off-peak hours and exclude fragile legacy assets."
+  },
+  {
+    "id": "KB-030",
+    "title": "Backup Environment Hardening",
+    "content": "Store primary backup repositories on dedicated storage arrays with air-gapped immutable copies in a secondary datacenter."
+  },
+  {
+    "id": "KB-031",
+    "title": "Antivirus Evasion Detection",
+    "content": "Alert on registry modifications targeting AV policies indicating intent to disable security controls."
+  },
+  {
+    "id": "KB-032",
+    "title": "GitHub Secrets Scanning",
+    "content": "Integrate pre-commit hooks and automated repository scanning to prevent developers from publishing hardcoded credentials."
+  },
+  {
+    "id": "KB-033",
+    "title": "DevOps Container Registries",
+    "content": "Enforce image signing and vulnerability scanning on all base images before deployment to production."
+  },
+  {
+    "id": "KB-034",
+    "title": "QA Environment Data Sanitization",
+    "content": "Implement automated data masking scripts to obfuscate PII before migrating production database dumps to QA servers."
+  },
+  {
+    "id": "KB-035",
+    "title": "RDP Tunneling Detection",
+    "content": "Monitor network traffic flows for unexpected application protocols tunneling over standard TCP 3389 connections."
+  },
+  {
+    "id": "KB-036",
+    "title": "Administrator Account Auditing",
+    "content": "Review Active Directory for unexpected user creation and assignment to local or domain admin groups."
+  },
+  {
+    "id": "KB-037",
+    "title": "Port Scan Triage",
+    "content": "Correlate inbound TCP sweeps with subsequent exploitation attempts in IPS logs to differentiate background noise."
+  },
+  {
+    "id": "KB-038",
+    "title": "Spooler Service Abuse",
+    "content": "Disable the Print Spooler service on all domain controllers and critical servers not required to function as print servers."
+  },
+  {
+    "id": "KB-039",
+    "title": "Cryptomining Incident Containment",
+    "content": "Terminate processes matching known miner signatures, isolate the endpoint, and block mining pool IPs."
+  },
+  {
+    "id": "KB-040",
+    "title": "USB Mass Storage Restrictions",
+    "content": "Deploy endpoint DLP policies to block unauthorized USB mass storage devices and enforce encryption."
+  },
+  {
+    "id": "KB-041",
+    "title": "BGP Route Hijack Mitigation",
+    "content": "Implement RPKI route validation and configure strict prefix filtering on all external facing BGP peerings."
+  },
+  {
+    "id": "KB-042",
+    "title": "Container Security Best Practices",
+    "content": "Enforce read-only root filesystems, drop unnecessary Linux capabilities, and prevent privileged container execution."
+  },
+  {
+    "id": "KB-043",
+    "title": "AWS IAM Least Privilege",
+    "content": "Regularly audit AWS IAM roles, remove wildcard permissions, and mandate MFA for all console access."
+  },
+  {
+    "id": "KB-044",
+    "title": "LSASS Dumping Prevention",
+    "content": "Enable Credential Guard and monitor for untrusted processes requesting memory read permissions against lsass.exe."
+  },
+  {
+    "id": "KB-045",
+    "title": "Active Directory Tiering",
+    "content": "Implement the tier model to restrict domain administrators from logging into standard user workstations."
+  },
+  {
+    "id": "KB-046",
+    "title": "Kerberoasting Detection",
+    "content": "Monitor for anomalous service ticket requests matching SPN configurations with weak encryption algorithms."
+  },
+  {
+    "id": "KB-047",
+    "title": "AS-REP Roasting Prevention",
+    "content": "Ensure 'Do not require Kerberos preauthentication' is disabled for all user accounts in Active Directory."
+  },
+  {
+    "id": "KB-048",
+    "title": "NTLMv1 Disablement",
+    "content": "Disable NTLMv1 authentication globally via Group Policy to prevent hash cracking and relay attacks."
+  },
+  {
+    "id": "KB-049",
+    "title": "SMB Signing Enforcement",
+    "content": "Require SMB signing on all workstations and servers to mitigate internal man-in-the-middle attacks."
+  },
+  {
+    "id": "KB-050",
+    "title": "LDAP Signing Required",
+    "content": "Configure domain controllers to reject simple LDAP binds and require secure LDAP configurations."
+  },
+  {
+    "id": "KB-051",
+    "title": "Zero Trust Network Access",
+    "content": "Migrate from traditional VPNs to application-specific micro-tunnels verifying device posture continuously."
+  },
+  {
+    "id": "KB-052",
+    "title": "Third-Party Risk Management",
+    "content": "Require annual SOC 2 Type II reports and automated security posture scoring for all SaaS vendors."
+  },
+  {
+    "id": "KB-053",
+    "title": "Endpoint Detection and Response",
+    "content": "Ensure EDR agents are deployed, communicating, and updating properly across the entire endpoint fleet."
+  },
+  {
+    "id": "KB-054",
+    "title": "Mobile Device Management",
+    "content": "Require conditional access policies ensuring mobile devices are encrypted and not jailbroken before syncing corporate email."
+  },
+  {
+    "id": "KB-055",
+    "title": "Cloud Security Posture Management",
+    "content": "Utilize automated tools to identify publicly accessible storage buckets and overly permissive security groups."
+  },
+  {
+    "id": "KB-056",
+    "title": "Web Application Firewall Tuning",
+    "content": "Review WAF block logs weekly to adjust custom rule sets and reduce false positive block rates."
+  },
+  {
+    "id": "KB-057",
+    "title": "DDoS Mitigation Activation",
+    "content": "Configure automatic BGP traffic scrubbing thresholds to activate when inbound bandwidth exceeds 10Gbps."
+  },
+  {
+    "id": "KB-058",
+    "title": "Threat Intelligence Integration",
+    "content": "Automate the ingestion of STIX/TAXII feeds into the SIEM for real-time indicator correlation."
+  },
+  {
+    "id": "KB-059",
+    "title": "Incident Response Tabletop",
+    "content": "Conduct quarterly simulated exercises involving IT, legal, and executive teams to refine the IR playbook."
+  },
+  {
+    "id": "KB-060",
+    "title": "Forensic Image Acquisition",
+    "content": "Utilize write-blockers and generate cryptographic hashes when capturing physical drives for legal hold."
+  },
+  {
+    "id": "KB-061",
+    "title": "Memory Analysis Baseline",
+    "content": "Perform Volatility analysis on compromised hosts to identify injected threads and hidden rootkit drivers."
+  },
+  {
+    "id": "KB-062",
+    "title": "Log Retention Policy",
+    "content": "Maintain 90 days of hot SIEM storage and 1 year of cold archive storage for compliance auditing."
+  },
+  {
+    "id": "KB-063",
+    "title": "Patch Management SLA",
+    "content": "Deploy critical security updates within 7 days of release and standard functional updates within 30 days."
+  },
+  {
+    "id": "KB-064",
+    "title": "Out-of-Band Management",
+    "content": "Isolate iDRAC, iLO, and IPMI interfaces on dedicated physical management switches disconnected from the production LAN."
+  },
+  {
+    "id": "KB-065",
+    "title": "Network Time Protocol Security",
+    "content": "Synchronize all infrastructure to internal stratum servers utilizing NTP authentication keys to prevent time tampering."
+  },
+  {
+    "id": "KB-066",
+    "title": "Syslog Forwarding Reliability",
+    "content": "Configure network devices to forward logs via TCP rather than UDP to guarantee delivery during congestion."
+  },
+  {
+    "id": "KB-067",
+    "title": "DNS Sinkholing Strategy",
+    "content": "Redirect known malicious domain queries to an internal sinkhole server to identify infected endpoints."
+  },
+  {
+    "id": "KB-068",
+    "title": "Privileged Access Management",
+    "content": "Mandate the use of a password vault requiring approval workflows for check-out of critical infrastructure credentials."
+  },
+  {
+    "id": "KB-069",
+    "title": "Certificate Lifecycle Management",
+    "content": "Deploy automated agents to alert on impending SSL/TLS certificate expirations 30 days prior to invalidation."
+  },
+  {
+    "id": "KB-070",
+    "title": "File Integrity Monitoring",
+    "content": "Alert on unauthorized modifications to critical system files in /etc/ and system32 directories."
+  },
+  {
+    "id": "KB-071",
+    "title": "Data Loss Prevention Alerts",
+    "content": "Investigate alerts generated by credit card or social security number regex patterns traversing email gateways."
+  },
+  {
+    "id": "KB-072",
+    "title": "Software Bill of Materials",
+    "content": "Require an SBOM for all internally developed applications to track vulnerable open-source dependencies."
+  },
+  {
+    "id": "KB-073",
+    "title": "API Gateway Rate Limiting",
+    "content": "Enforce strict IP-based rate limiting on external APIs to prevent automated enumeration and scraping."
+  },
+  {
+    "id": "KB-074",
+    "title": "Serverless Function Security",
+    "content": "Assign minimal execution roles to cloud functions and scan deployment packages for hardcoded secrets."
+  },
+  {
+    "id": "KB-075",
+    "title": "Database Encryption at Rest",
+    "content": "Enable Transparent Data Encryption on all production database clusters utilizing external key management systems."
+  },
+  {
+    "id": "KB-076",
+    "title": "Red Team Engagement",
+    "content": "Schedule annual objective-based red team assessments to evaluate detection and response capabilities."
+  },
+  {
+    "id": "KB-077",
+    "title": "Bug Bounty Triage",
+    "content": "Acknowledge submitted vulnerability reports within 48 hours and coordinate remediation based on CVSS scoring."
+  },
+  {
+    "id": "KB-078",
+    "title": "Social Engineering Awareness",
+    "content": "Conduct monthly simulated phishing campaigns and enroll repeat clickers in mandatory remedial training."
+  },
+  {
+    "id": "KB-079",
+    "title": "Clean Desk Policy",
+    "content": "Ensure physical documents containing sensitive information are locked away when workstations are unattended."
+  },
+  {
+    "id": "KB-080",
+    "title": "Tailgating Prevention",
+    "content": "Require all personnel to swipe individual badges at turnstiles and challenge unknown individuals lacking visible credentials."
+  },
+  {
+    "id": "KB-081",
+    "title": "Visitor Management System",
+    "content": "Log all physical guests, issue temporary expiring badges, and require escort by full-time employees."
+  },
+  {
+    "id": "KB-082",
+    "title": "Hardware Asset Inventory",
+    "content": "Perform quarterly physical reconciliation of datacenter hardware against the Configuration Management Database."
+  },
+  {
+    "id": "KB-083",
+    "title": "Software License Auditing",
+    "content": "Review deployed commercial software agents against active license counts to prevent vendor compliance violations."
+  },
+  {
+    "id": "KB-084",
+    "title": "End of Life System Hardening",
+    "content": "Isolate legacy operating systems that can no longer receive security patches on restricted enclave networks."
+  },
+  {
+    "id": "KB-085",
+    "title": "Wire Transfer Verification",
+    "content": "Implement out-of-band voice verification for all executive requests initiating external financial transactions."
+  },
+  {
+    "id": "KB-086",
+    "title": "Vendor Remote Access",
+    "content": "Restrict external support vendors to time-limited VPN sessions utilizing just-in-time account provisioning."
+  },
+  {
+    "id": "KB-087",
+    "title": "Logon Workstation Restrictions",
+    "content": "Configure Active Directory to restrict service accounts so they can only authenticate from their designated host servers."
+  },
+  {
+    "id": "KB-088",
+    "title": "Guest Wi-Fi Isolation",
+    "content": "Ensure wireless guest networks route directly to the internet ISP connection with no internal routing paths."
+  },
+  {
+    "id": "KB-089",
+    "title": "IoT Device Segmentation",
+    "content": "Place smart TVs, thermostats, and appliances on dedicated VLANs isolated from corporate endpoint networks."
+  },
+  {
+    "id": "KB-090",
+    "title": "Mainframe Access Control",
+    "content": "Require strict RACF security configurations and monitor TN3270 emulation sessions for abnormal transaction volumes."
+  },
+  {
+    "id": "KB-091",
+    "title": "Source Code Repository Auditing",
+    "content": "Restrict master branch direct commits and require two peer reviews before merging pull requests."
+  },
+  {
+    "id": "KB-092",
+    "title": "CI/CD Pipeline Security",
+    "content": "Run static application security testing (SAST) during automated build pipelines to break builds containing critical flaws."
+  },
+  {
+    "id": "KB-093",
+    "title": "Dynamic Application Security Testing",
+    "content": "Schedule weekly DAST scans against staging web application environments to identify runtime vulnerabilities."
+  },
+  {
+    "id": "KB-094",
+    "title": "Session Token Invalidation",
+    "content": "Ensure web application authentication tokens expire after 15 minutes of inactivity and upon absolute logout."
+  },
+  {
+    "id": "KB-095",
+    "title": "Password Complexity Policy",
+    "content": "Enforce a minimum 14-character length for domain passwords and cross-reference against known breached password dictionaries."
+  },
+  {
+    "id": "KB-096",
+    "title": "Local Admin Password Solution",
+    "content": "Deploy LAPS to randomize and manage local administrator account passwords uniquely across all domain-joined endpoints."
+  },
+  {
+    "id": "KB-097",
+    "title": "Sysmon Deployment Strategy",
+    "content": "Install Sysinternals Sysmon globally to capture detailed process creation, network connections, and file creation events."
+  },
+  {
+    "id": "KB-098",
+    "title": "Windows Event Forwarding",
+    "content": "Utilize native WEF subscriptions to centrally collect high-value security events without requiring third-party agents."
+  },
+  {
+    "id": "KB-099",
+    "title": "Honeypot Deployment",
+    "content": "Deploy internal decoy servers broadcasting vulnerable services to detect lateral movement and reconnaissance scanning."
+  },
+  {
+    "id": "KB-100",
+    "title": "Canary Token Tracking",
+    "content": "Embed traceable URLs and document beacons in fictitious internal files to identify unauthorized exfiltration."
+  }
+]
