@@ -120,6 +120,10 @@ def health():
     "/uptimemonitor",
     methods=["GET", "HEAD"]
 )
+def uptime_monitor():
+    return {
+        "status": "ok"
+    }
 
 # ============================================================
 # AI CHAT ENDPOINT
