@@ -75,14 +75,14 @@ def load_json(filename: str):
 
         raise HTTPException(
             status_code=500,
-            detail=f"Data file not found: {filename}"
+            detail="Required application data is unavailable."
         )
 
     except json.JSONDecodeError:
 
         raise HTTPException(
             status_code=500,
-            detail=f"Invalid JSON in: {filename}"
+            detail="Application data could not be processed."
         )
 
 
@@ -120,11 +120,6 @@ def health():
     "/uptimemonitor",
     methods=["GET", "HEAD"]
 )
-def uptime_monitor():
-
-    return {
-        "status": "online"
-    }
 
 # ============================================================
 # AI CHAT ENDPOINT
@@ -153,11 +148,13 @@ def chat(request: ChatRequest):
             )
         }
 
-    except Exception as error:
+    except Exception:
 
         raise HTTPException(
             status_code=500,
-            detail=str(error)
+            detail=(
+                "CERBERUS encountered an internal processing error."
+            )
         )
 
 
