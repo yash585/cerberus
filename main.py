@@ -112,6 +112,19 @@ def health():
         "tools": 5
     }
 
+# ============================================================
+# UPTIME ROBOT MONITOR
+# ============================================================
+
+@app.api_route(
+    "/uptimemonitor",
+    methods=["GET", "HEAD"]
+)
+def uptime_monitor():
+
+    return {
+        "status": "online"
+    }
 
 # ============================================================
 # AI CHAT ENDPOINT
